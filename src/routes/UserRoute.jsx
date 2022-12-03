@@ -12,7 +12,3 @@ const UserRoute = ({ auth }) => {
 }
 
 export default UserRoute
-
-UserRoute.defaultProps = {
-  auth: true,
-}

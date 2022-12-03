@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
+
+// libraries
 import { Link, NavLink, Outlet } from 'react-router-dom'
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '@adminkit/core/dist/css/app.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
-
 import {
   Sliders,
   MessageSquare,
@@ -15,6 +12,7 @@ import {
   Users,
 } from 'react-feather'
 
+// others
 import image from '@adminkit/core/dist/img/avatars/avatar.jpg'
 
 const UserTemplate = () => {

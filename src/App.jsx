@@ -16,7 +16,7 @@ import Users from './pages/Users'
 const App = () => {
   return (
     <Routes>
-      <Route element={<UserRoute />}>
+      <Route element={<UserRoute auth={true} />}>
         <Route element={<UserTemplate />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
